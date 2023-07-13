@@ -32,7 +32,8 @@ class general_Character:
             self.print_skills()
             self.menu()
         elif choose == '6':
-            return
+            return 
+
         else:
             print("Invalid choice\n")
             self.menu()

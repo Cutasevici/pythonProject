@@ -1,9 +1,10 @@
 from general_Character import general_Character
 from dialog import Dialog
-my_list = []
+from save_load import CharacterManager
+
 
 
 Dan = general_Character()
 Dan.menu()
-dialog = Dialog(Dan)
-dialog.talk()
+save = CharacterManager()
+save.save_load_menu(Dan)
